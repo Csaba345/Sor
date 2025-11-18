@@ -1,0 +1,148 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Verdana, sans-serif;
+    color: beige;
+    /*font-size: 10pt;*/
+}
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+    'h h'
+    'ar n'
+    'f f'
+    ;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    background-color:#333333 ;
+}
+
+header{
+    grid-area: h;
+    background-image: url(sor/design/beer-new_401732638.jpg);
+    height: 300px;
+    background-size: cover;
+    font-family: Garamond;
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 4px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+article{
+    grid-area: ar;
+}
+
+nav{
+    grid-area: n;
+}
+figure{
+    grid-area: f;
+}
+
+footer{
+    grid-area: f;
+}
+
+
+body{
+    background-image: url(sor/design/teglafal.jpg);
+    display: block;
+
+}
+
+nav ol li{
+    list-style-type: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    width: auto;
+     text-align: left;
+     padding-left: 20px;
+     margin-bottom: 10px;
+}
+
+nav ol{
+    margin: 10px;
+}
+/*
+a:visited{
+    color: red;
+}
+*/
+li:hover{
+    background-color: lightblue;
+}
+a{
+    text-decoration: none;
+        color: red;
+        font-weight: bold;
+       
+}
+
+a:hover{
+    color: white;
+}
+/*
+a:active{
+    background-color: yellow;
+}
+/*
+a:link{
+    color: peru;
+}*/
+
+article p{
+    text-align: justify;
+    font-size: 10px;
+}
+
+article *{
+    font-size: 10px;
+}
+
+article h2{
+    font-size: 15px;
+}
+
+figure{
+    float: left;
+}
+
+figure img{
+    width: 200px;
+    height: auto;
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    border: solid 1px darkgray;
+    border-radius: 10px;
+}
+
+section div ul{
+    float: left;
+}
+
+
+footer  {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+#felsorol li{
+    list-style-type: square;
+
+}
+
+#felsorol{
+    margin-left: 50px;
+}
