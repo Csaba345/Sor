@@ -139,10 +139,10 @@ footer  {
 }
 
 #felsorol li{
-    list-style-type: square;
+    list-style-type: ins;
 
 }
 
 #felsorol{
-    margin-left: 50px;
+    margin-left: 50px !important; 
 }
